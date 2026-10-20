@@ -1,1 +1,77 @@
-public/services.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | JOSHUA TECH SOLUTION</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <div class="brand-wrap">
+          <div class="brand-mark">JTS</div>
+          <div>
+            <div class="brand-name">JOSHUA TECH SOLUTION</div>
+            <div class="brand-tag">TECHNOLOGY MADE SIMPLE</div>
+          </div>
+        </div>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="/">Home</a>
+          <a href="/services">Services</a>
+          <a href="/payment">Payment</a>
+          <a href="/contact">Contact</a>
+          <a href="/admin-login.html">Admin</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="section">
+        <div class="container contact-grid page-contact">
+          <div>
+            <div class="section-heading left">
+              <p class="eyebrow">CONTACT</p>
+              <h2>We are ready to help.</h2>
+            </div>
+            <div class="contact-list">
+              <div><span>Name</span><strong>JOSHUA TECH SOLUTION</strong></div>
+              <div><span>Phone</span><strong><a href="tel:+255794061416">0794061416</a></strong></div>
+              <div><span>WhatsApp</span><strong><a href="https://whatsapp.com/channel/0029VbDNsAGGehEMuO49Qi0S" target="_blank" rel="noreferrer">Join the Channel</a></strong></div>
+            </div>
+          </div>
+
+          <div class="card form-card">
+            <h3>Quick Enquiry</h3>
+            <form id="contactForm">
+              <label>
+                Name
+                <input type="text" name="contactName" placeholder="Your name" required />
+              </label>
+              <label>
+                Phone
+                <input type="tel" name="contactPhone" placeholder="Your phone number" required />
+              </label>
+              <label>
+                Message
+                <textarea name="contactMessage" rows="4" placeholder="Tell us about your project" required></textarea>
+              </label>
+              <button class="btn btn-primary" type="submit">Send Message</button>
+            </form>
+            <div id="contactMessage" class="form-message" aria-live="polite"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-shell">
+        <p>JOSHUA TECH SOLUTION — TECHNOLOGY MADE SIMPLE</p>
+      </div>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>

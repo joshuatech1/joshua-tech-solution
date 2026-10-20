@@ -1,1 +1,62 @@
-public/payment.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Login | JOSHUA TECH SOLUTION</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <div class="brand-wrap">
+          <div class="brand-mark">JTS</div>
+          <div>
+            <div class="brand-name">JOSHUA TECH SOLUTION</div>
+            <div class="brand-tag">TECHNOLOGY MADE SIMPLE</div>
+          </div>
+        </div>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="/">Home</a>
+          <a href="/services">Services</a>
+          <a href="/payment">Payment</a>
+          <a href="/contact">Contact</a>
+          <a href="/admin-login.html">Admin</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="section">
+        <div class="container auth-shell">
+          <div class="card form-card auth-card">
+            <h3>Admin Login</h3>
+            <p class="auth-copy">Use your secure administrator email and password.</p>
+            <form id="adminLoginForm">
+              <label>
+                Email
+                <input type="email" name="email" placeholder="admin@joshuatech.co.tz" required />
+              </label>
+              <label>
+                Password
+                <input type="password" name="password" placeholder="Enter your password" required />
+              </label>
+              <button class="btn btn-primary" type="submit">Login</button>
+            </form>
+            <div id="adminLoginMessage" class="form-message" aria-live="polite"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-shell">
+        <p>JOSHUA TECH SOLUTION — TECHNOLOGY MADE SIMPLE</p>
+      </div>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>
