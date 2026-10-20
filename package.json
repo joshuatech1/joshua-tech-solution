@@ -1,0 +1,30 @@
+{
+  "name": "joshua-tech-solution",
+  "version": "1.0.0",
+  "description": "Responsive IT business website with secure admin dashboard and payment verification backend for Joshua Tech Solution.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "website",
+    "admin",
+    "payment",
+    "express",
+    "sqlite"
+  ],
+  "author": "Joshua Tech Solution",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.29.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.16"
+  }
+}
